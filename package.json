@@ -1,0 +1,25 @@
+{
+  "name": "gitbook-plugin-timeline",
+  "version": "1.0.0",
+  "description": "timeline",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pengfeiWang/gitbook-plugin-timeline.git"
+  },
+  "keywords": [
+    "gitbook-plugin-timelien"
+  ],
+  "author": "w.pengfei",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/pengfeiWang/gitbook-plugin-timeline/issues"
+  },
+  "homepage": "https://github.com/pengfeiWang/gitbook-plugin-timeline#readme",
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.2"
+  }
+}
