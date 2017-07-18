@@ -12,7 +12,7 @@
   margin-left: 14px;
 }
 .timeline-plugin ul{
-  margin-left: 10px;
+  padding-left: 3em;
 }
 .timeline-plugin:before {
   position: absolute;
