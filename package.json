@@ -1,9 +1,11 @@
 {
   "name": "gitbook-plugin-timeline",
-  "version": "1.0.10",
+  "version": "1.0.11",
   "description": "timeline",
   "main": "index.js",
-  "scripts": { },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
   "engines": {
     "gitbook": ">1.x.x"
   },
@@ -24,5 +26,12 @@
     "cheerio": "^1.0.0-rc.2"
   },
   "gitbook": {
+    "properties": {
+      "myConfigKey": {
+        "type": "string",
+        "default": "it's the default value",
+        "description": "It defines my awesome config!"
+      }
+    }
   }  
 }
