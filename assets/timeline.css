@@ -3,20 +3,20 @@
   padding-left: 20px;
   padding-bottom: 30px;
   position: relative;
-  overflow: hidden;
+  overflow: -hidden;
 }
 .timeline-plugin + .timeline-plugin {
   top: -17px;
 }
 .timeline-plugin p{
-  margin-left: 14px;
+  margin-left: 20px !important;
 }
 .timeline-plugin ul{
-  padding-left: 3em;
+  padding-left: 3em !important;
 }
 .timeline-plugin:before {
   position: absolute;
-  top: 30px;
+  top: 33px;
   left: 8px;
   bottom: 0;
   width: 2px;
@@ -24,10 +24,13 @@
   content: ' ';
 }
 .timeline-plugin h2 {
-  position: relative;
+  position: absolute;
   padding: 0 0 0 40px;
-  left: -20px;
-  top: -35px;
+  /* left: -20px; */
+  top: 0;
+  left: 0;
+  right: 0;
+  margin: 0;
 }
 .timeline-plugin h2:before {
   content: ' ';
