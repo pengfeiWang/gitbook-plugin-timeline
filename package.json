@@ -1,6 +1,6 @@
 {
   "name": "gitbook-plugin-timeline",
-  "version": "1.0.11",
+  "version": "1.0.12",
   "description": "timeline",
   "main": "index.js",
   "scripts": {
@@ -27,11 +27,7 @@
   },
   "gitbook": {
     "properties": {
-      "myConfigKey": {
-        "type": "string",
-        "default": "it's the default value",
-        "description": "It defines my awesome config!"
-      }
+      
     }
   }  
 }
