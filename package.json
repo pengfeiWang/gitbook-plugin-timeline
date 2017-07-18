@@ -1,6 +1,6 @@
 {
   "name": "gitbook-plugin-timeline",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "timeline",
   "main": "index.js",
   "scripts": {
