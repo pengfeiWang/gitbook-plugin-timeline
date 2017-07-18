@@ -1,8 +1,12 @@
 
 .timeline-plugin{
   padding-left: 20px;
-  padding-bottom: 10px;
+  padding-bottom: 30px;
   position: relative;
+  overflow: hidden;
+}
+.timeline-plugin + .timeline-plugin {
+  top: -17px;
 }
 .timeline-plugin p{
   margin-left: 14px;
@@ -13,9 +17,9 @@
 .timeline-plugin:before {
   position: absolute;
   top: 30px;
-  left: 3px;
+  left: 8px;
   bottom: 0;
-  width: 4px;
+  width: 2px;
   background: #ccc;
   content: ' ';
 }
@@ -23,16 +27,17 @@
   position: relative;
   padding: 0 0 0 40px;
   left: -20px;
+  top: -35px;
 }
 .timeline-plugin h2:before {
   content: ' ';
   position: absolute;
-  top: 0;
-  bottom: 0;
+  top: 15px;
+  bottom: auto;
   height: 14px;
-  left: -5px;
+  left: 0px;
   width: 14px;
-  border:2px solid #108ee9;
+  border: 2px solid #108ee9;
   border-radius: 10px;
   margin: auto;
 }
