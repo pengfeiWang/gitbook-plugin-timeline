@@ -1,10 +1,13 @@
 {
   "name": "gitbook-plugin-timeline",
-  "version": "1.0.0",
+  "version": "1.0.3",
   "description": "timeline",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "engines": {
+    "gitbook": ">1.x.x"
   },
   "repository": {
     "type": "git",
@@ -21,5 +24,14 @@
   "homepage": "https://github.com/pengfeiWang/gitbook-plugin-timeline#readme",
   "dependencies": {
     "cheerio": "^1.0.0-rc.2"
-  }
+  },
+  "gitbook": {
+    "properties": {
+      "myConfigKey": {
+        "type": "string",
+        "default": "it's the default value",
+        "description": "It defines my awesome config!"
+      }
+    }
+  }  
 }
